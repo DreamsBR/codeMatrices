@@ -1,0 +1,25 @@
+# Ignorar directorios node_modules
+node_modules/
+
+# Ignorar archivos binarios de Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Ignorar ejecutables de Go
+main
+
+# Ignorar archivos temporales
+*.tmp
+*.log
+
+# Ignorar directorios de dependencias de Go
+vendor/
+
+# Ignorar archivos de configuración de Docker Compose
+docker-compose.override.yml
+
+# Ignorar archivos de sistema
+.DS_Store
